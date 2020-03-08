@@ -1,0 +1,106 @@
+.grid-container {
+  	display: inline-grid;
+  	grid-template-columns: auto auto auto;
+}
+.grid-item {
+  	padding: 20px;
+  	font-size: 30px;
+  	text-align: center;
+}
+.mt-250 {
+	margin-top: 250px!important;
+}
+.p-40 {
+	padding: 40px!important;
+}
+.bg-white {
+	background-color: #fff;
+}
+.bg-dune {
+	background-color: #1F1D1B;
+}
+.bg-cinnabar {
+	background-color: #E74C36;
+}
+.bg-golden-fizz {
+	background-color: #FEEB2F;
+}
+.text-italic {
+	text-transform: none!important;
+	font-style: italic!important;
+	font-weight: normal!important;
+}
+.text-center {
+	text-align: center!important;
+}
+small {
+	display: block!important;
+}
+@font-face {
+  	font-family: 'Crimson Text', serif;
+  	src: url(../lib/font/crimson-text/CrimsonText-Regular.ttf);
+}
+.title {
+	font-size: 120px!important;
+	color: #E74C36!important;
+	text-align: left!important;
+	text-transform: capitalize!important;
+}
+.serif {
+	font-family: 'Crimson Text', serif!important;
+}
+.heading {
+	font-size: 70px!important;
+}
+.img {
+	width: 100%!important;
+	height: 100%!important;
+	border: 6px solid #fd7561!important;
+}
+.no-border-img {
+	border: none!important;
+}
+.big-text {
+	text-transform: normal!important;
+}
+.text-left {
+	text-align: left!important;
+}
+.text-uppercase {
+	text-transform: uppercase!important;
+}
+.centered {
+	margin: 0 auto!important;
+	width: 960px!important
+}
+ol.intro-list { 
+	margin-left: -10px!important;
+    list-style: none !important; 
+    counter-reset: li;
+}
+ol.intro-list > li {
+	margin-left: -50px;
+	counter-increment: li;
+	font-size: 50px!important;
+	line-height: 2.0em!important;
+	color: #fff!important;
+}
+ol.intro-list > li::before {
+	padding-right: 40px!important;
+	content: "0" counter(li) "—"; 
+	color: #470240;
+	font-family: 'Crimson Text', serif!important;
+	font-size: 30px!important;
+	font-weight: bold!important;
+  	display: inline-block;
+  	margin-left: -1em
+  	width: 2em!important;
+}
+.img-truck-wrap {
+	width: 685px!important;
+	height: 903px!important;
+}
+.img-sana-all {
+	width: 500px!important;
+	height: 643px!important;
+}
